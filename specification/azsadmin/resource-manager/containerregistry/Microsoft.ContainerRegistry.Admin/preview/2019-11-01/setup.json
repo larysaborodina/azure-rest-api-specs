@@ -19,14 +19,14 @@
         "/subscriptions/{subscriptionId}/providers/Microsoft.ContainerRegistry.Admin/setup": {
             "post": {
                 "x-ms-examples": {
-                    "Invoks container registry certificate uploading and ACR service deployment.": {
+                    "Invokes container registry certificate uploading and ACR service deployment.": {
                         "$ref": "./examples/Setup/setup.json"
                     }
                 },
                 "tags": [
                     "ContainerRegistrySetup"
                 ],
-                "description": "Invoks container registry certificate uploading and service deployment.",
+                "description": "Invokes container registry certificate uploading and service deployment.",
                 "operationId": "ContainerRegistrySetup",
                 "parameters": [
                     {
