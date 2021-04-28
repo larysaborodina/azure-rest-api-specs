@@ -30,13 +30,13 @@ tag: package-2019-11-01
 ``` yaml
 input-file:
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkCapacity.json
+  - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/getConfiguration.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/operations.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/quotas.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/registries.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setConfiguration.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setup.json
-  - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json
 ```
 
 ---

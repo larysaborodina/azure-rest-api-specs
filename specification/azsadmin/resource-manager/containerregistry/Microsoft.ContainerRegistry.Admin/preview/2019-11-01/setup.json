@@ -37,8 +37,8 @@
                     }
                 ],
                 "responses": {
-                    "200": {
-                        "description": "OK -- Container registry certificate was uploaded successfully and deployment started."
+                    "202": {
+                        "description": "Accepted -- Container registry certificate was uploaded successfully and deployment started."
                     },
                     "default": {
                         "description": "Error Response.",

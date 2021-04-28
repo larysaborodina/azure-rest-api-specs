@@ -34,13 +34,13 @@ These settings apply only when `--tag=package-2019-11-01` is specified on the co
 ``` yaml $(tag) == 'package-2019-11-01'
 input-file:
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkCapacity.json"
+    - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/getConfiguration.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/operations.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/quotas.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/registries.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setConfiguration.json"
     - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setup.json"
-    - "Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json"
 ```
 
 ---
@@ -74,13 +74,13 @@ require: $(this-folder)/../../../../profiles/readme.md
 # all the input files across all versions
 input-file:
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkCapacity.json
+  - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/getConfiguration.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/operations.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/quotas.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/registries.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setConfiguration.json
   - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/setup.json
-  - $(this-folder)/Microsoft.ContainerRegistry.Admin/preview/2019-11-01/checkSetup.json
 ```
 
 If there are files that should not be in the `all-api-versions` set, 
