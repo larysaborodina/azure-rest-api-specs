@@ -111,12 +111,11 @@
         },
         "SetupProperty": {
             "description": "Container registry start setup return property.",
-            "type": "string",
+            "type": "object",
             "properties": {
-                "status": {
+                "statusUri": {
                     "description": "The uri to poll status of the container registry setup.",
-                    "$ref": "#/definitions/StatusUri",
-                    "readOnly": true
+                    "type": "string"
                 }
             }
         }
