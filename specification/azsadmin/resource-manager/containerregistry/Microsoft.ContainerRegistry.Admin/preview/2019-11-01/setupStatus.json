@@ -16,18 +16,18 @@
         "application/json"
     ],
     "paths": {
-        "/subscriptions/{subscriptionId}/providers/Microsoft.ContainerRegistry.Admin/checkSetup": {
+        "/subscriptions/{subscriptionId}/providers/Microsoft.ContainerRegistry.Admin/setupStatus": {
             "post": {
                 "x-ms-examples": {
                     "Returns the status of the container registry setup.": {
-                        "$ref": "./examples/Setup/checkSetup.json"
+                        "$ref": "./examples/Setup/setupStatus.json"
                     }
                 },
                 "tags": [
                     "ContainerRegistrySetup"
                 ],
                 "description": "Returns the status of the container registry setup.",
-                "operationId": "ContainerRegistryCheckSetup",
+                "operationId": "ContainerRegistrySetupStatus",
                 "parameters": [
                     {
                         "$ref": "quotas.json#/parameters/SubscriptionIdParameter"
@@ -85,10 +85,11 @@
             "description": "The status of the container registry setup.",
             "type": "string",
             "enum": [
-                "SetupInvalid",
-                "SetupRunning",
-                "SetupFailed",
-                "SetupCompleted"
+                "ReadyToSetup",
+                "Running",
+                "Failed",
+                "Cancelled",
+                "Completed"
             ],
             "x-ms-enum": {
                 "name": "SetupStatus",

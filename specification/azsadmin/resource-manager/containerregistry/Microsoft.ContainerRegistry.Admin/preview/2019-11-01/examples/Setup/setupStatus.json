@@ -6,9 +6,9 @@
     "responses": {
         "200": {
             "body": {
-                "id": "/subscriptions/9ad61516-995c-4873-a21f-7e44904f0ed2/providers/Microsoft.ContainerRegistry.Admin/setup",
+                "id": "/subscriptions/9ad61516-995c-4873-a21f-7e44904f0ed2/providers/Microsoft.ContainerRegistry.Setup/setupStatus",
                 "name": "value",
-                "type": "Microsoft.ContainerRegistry.Admin/setup",
+                "type": "Microsoft.ContainerRegistry.Setup/setupStatus",
                 "properties": {
                     "status": "SetupCompleted"
                 }
