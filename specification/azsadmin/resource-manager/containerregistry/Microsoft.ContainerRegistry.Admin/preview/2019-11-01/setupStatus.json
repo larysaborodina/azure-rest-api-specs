@@ -17,7 +17,7 @@
     ],
     "paths": {
         "/subscriptions/{subscriptionId}/providers/Microsoft.ContainerRegistry.Admin/setupStatus": {
-            "post": {
+            "get": {
                 "x-ms-examples": {
                     "Returns the status of the container registry setup.": {
                         "$ref": "./examples/Setup/setupStatus.json"
